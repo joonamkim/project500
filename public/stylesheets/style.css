@@ -1,0 +1,43 @@
+@keyframes animatedBackground {
+
+from { background-position: 0 0; }
+
+to { background-position: 100% 0; }
+
+}
+
+
+
+body	{ 
+
+ 
+
+background-image: url('17.gif');
+
+background-position: 0px 0px;
+
+background-repeat: repeat-x;
+
+
+
+animation: animatedBackground 40s linear infinite;
+
+}
+
+
+
+.heading {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 3cm;
+  color: white;
+  font-size: 500%;
+}
+
+p {
+  padding-top: 2cm;
+  color: white;
+  font-size: 200%;
+}
